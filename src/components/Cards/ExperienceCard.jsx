@@ -23,7 +23,7 @@ const Description = styled.div`
         font-size: 12px;
     }
 `
-
+const Ul=styled.ul`padding-left:15px`
 const Span = styled.span`
 overflow: hidden;
 display: -webkit-box;
@@ -156,10 +156,13 @@ const ExperienceCard = ({ experience }) => {
                 </Body>
             </Top>
             <Description>
-                {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
-
-                }
+            <Span>
+          <Ul>
+          {experience.description?.map((desc, index) => (
+            <li key={index}>{desc}</li>
+          ))}
+          </Ul>
+         </Span>
                 {experience?.skills &&
                     <>
                         <br />
