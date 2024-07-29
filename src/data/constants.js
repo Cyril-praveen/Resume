@@ -84,20 +84,20 @@ export const skills = [
       {
         name: "Regression Analysis",
         image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Numpy.png.png?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/Common_yellow.svg?raw=true",
       },
       {
         name: "Decision Tree",
         image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Numpy.png.png?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/Common_yellow.svg?raw=true",
       },
     ],
   },
   {
-    title: "Technical",
+    title: "ERP & SupplyChian Expertise",
     skills: [
       {
-        name: "AWS",
+        name: "Procurement",
         image:
           "https://github.com/sonishstark/Portfolio-website/blob/main/public/aws.jpg?raw=true",
       },
