@@ -151,94 +151,54 @@ export const skills = [
 ];
 export const skills1 = [
   {
-    title: "Data Analytics & Visualisation",
+    title: "Softwares",
     skills: [
       {
-        name: "Python",
+        name: "SolidWorks 3D",
         image:
           "https://raw.githubusercontent.com/sonishstark/Portfolio-website/50ea5d5567b1ad3bdebc151bbcc5e1d1448d29be/public/python.svg",
       },
       {
-        name: "JavaScript",
+        name: "CATIA V5",
         image:
           "https://github.com/sonishstark/Portfolio-website/blob/main/public/js.png?raw=true",
       },
       {
-        name: "MySQL",
+        name: "AutoCAD",
         image:
           "https://github.com/sonishstark/Portfolio-website/blob/main/public/sql.png?raw=true",
       },
+      
       {
-        name: "PowerBI",
-        image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/PowerBI.png?raw=true",
-      },
-
-      {
-        name: "CPLEX",
+        name: "MATLAB",
         image:
           "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/CPLEX.jpg?raw=true",
       },
 
       {
-        name: "C/C++",
+        name: "Autodesk Alias",
         image:
           "https://github.com/sonishstark/Portfolio-website/blob/main/public/c.png?raw=true",
       },
       {
-        name: "Scikit-learn",
+        name: "Prusa Slicer 3D",
         image:
           "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Scikit%20learn.png?raw=true",
       },
       {
-        name: "PyCharm",
+        name: "KissSoft( Gear Design)",
         image:
-          "https://github.com/sonishstark/Portfolio-website/blob/main/public/PyCharm.png?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Scikit%20learn.png?raw=true",
       },
       {
-        name: "Matplotlib",
+        name: "ANSYS (Rigid Bodies)",
         image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Matplotlib_icon.png?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Scikit%20learn.png?raw=true",
       },
       {
-        name: "TensorFlow",
+        name: "AVL Cruise",
         image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Tensorflow.png?raw=true",
-      },
-      {
-        name: "Pytorch",
-        image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Tensorflow.png?raw=true",
-      },
-      {
-        name: "Pandas",
-        image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Pandas.png?raw=true",
-      },
-      {
-        name: "Numpy",
-        image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Numpy.png?raw=true",
-      },
-      {
-        name: "Minitab",
-        image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/Common_yellow.svg?raw=true",
-      },
-      {
-        name: "Regression Analysis",
-        image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/Common_yellow.svg?raw=true",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://github.com/sonishstark/Portfolio-website/blob/main/public/vscode.png?raw=true",
-      },
-      {
-        name: "Decision Tree",
-        image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/Common_yellow.svg?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Scikit%20learn.png?raw=true",
       },
     ],
   },
@@ -293,11 +253,7 @@ export const experiences = [
     description: [
       "Tutored and evaluated MECH 343 students, providing detailed guidance on kinematic and dynamic analysis of linkages, machine and gearbox design, and SolidWorks, resulting in improved student performance.",
     ],
-    skills: [
-      "Kinematics of Machinery",
-      "CAD",
-      "Design and Validation",
-          ],
+    skills: ["Kinematics of Machinery", "CAD", "Design and Validation"],
   },
   {
     id: 1,
@@ -325,14 +281,10 @@ export const experiences = [
     role: "Process Intern",
     company: "FORVIA",
     date: "Nov 2021 - Apr 2022",
-    description: [ 
+    description: [
       "Reduced airbag assembly cycle time by 15% through process optimization and tool change maintenance, conducted root cause analysis, and applied Lean Six Sigma tools to enhance production efficiency while maintaining safety standards",
     ],
-    skills: [
-      "Lean Sigma",
-      "Process",
-      
-    ],
+    skills: ["Lean Sigma", "Process"],
   },
 ];
 
@@ -344,36 +296,31 @@ export const education = [
     date: "Sep 2023 - Apr 2025",
     description: [
       "Courseworks : Discrete System Simulation, Applied Proababilty, Production Planning and Inventory Control, Data Analytics, Applied Optimisation, Supply Chain planning and control, Robotics and Control .",
-      
     ],
-    degree:
-      "Masters in Industrial Engineering (MEng)",
+    degree: "Masters in Industrial Engineering (MEng)",
   },
   {
     id: 1,
     img: "https://github.com/sonishstark/Portfolio-website/blob/main/public/sathyabama.jpg?raw=true",
     school: "Sathyabama Institute of Science and Technology",
     date: "Aug 2018 - May 2022",
-    description: [
-      "Courseworks: .",
-    ],
+    description: ["Courseworks: ."],
     degree: "Bachelor of Engineering - Mechanical Engineering (BEng)",
   },
-  
-  
 ];
 
 export const projects = [
   {
     id: 0,
-    title: "Design, Analysis and Optmisation of Li-ion for 55 Tonner Electric Truck",
+    title:
+      "Design, Analysis and Optmisation of Li-ion for 55 Tonner Electric Truck",
     date: "Aug 2023 - Dec 2023",
     description: [
       "Tractive Force and Battery Specification: Calculated the tractive force requirements for the 55-ton electric vehicle and determined the optimal kW rating for the battery pack. Selected appropriate prismatic cells to ensure high efficiency and performance.",
       "CAD Modeling and Manufacturing Drafting: Utilized CAD (Solidworks) software to model all battery components, ensuring precise fit and functionality. Prepared detailed manufacturing drawings with Geometric Dimension and Tolerance standards.",
-      "CFD Analysis and Cooling Optimization: Conducted comprehensive Computational Fluid Dynamics (CFD) analysis to evaluate and enhance the thermal management system, focusing on optimizing cooling loops by analyzing various configurations to achieve optimal thermal regulation and improve overall battery performance."
-    ], 
-       
+      "CFD Analysis and Cooling Optimization: Conducted comprehensive Computational Fluid Dynamics (CFD) analysis to evaluate and enhance the thermal management system, focusing on optimizing cooling loops by analyzing various configurations to achieve optimal thermal regulation and improve overall battery performance.",
+    ],
+
     image:
       "https://github.com/sonishstark/Portfolio-website/blob/main/public/Weather.png?raw=true",
     tags: ["Cystal", "Kemal", "JavaScript", "HTML", "CSS"],
