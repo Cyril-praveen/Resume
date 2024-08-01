@@ -51,7 +51,8 @@ const Date = styled.div`
     font-size: 12px;
   }
 `;
-
+const Li=styled.li`text-align:justify`
+const Ul=styled.ul`padding-left:20px`
 const Desc = styled.div`
   font-size: 16px;
   font-weight: 400;
@@ -205,7 +206,13 @@ const index = ({ openModal, setOpenModal }) => {
               <Tag>{tag}</Tag>
             ))}
           </Tags>
-          <Desc>{project?.description}</Desc>
+          <Desc>
+          <Ul>
+          {project.description?.map((desc, index) => (
+            <Li key={index}>{desc}</Li>
+          ))}
+          </Ul>
+          </Desc>
           {project.member && (
             <>
               <Label>Members</Label>

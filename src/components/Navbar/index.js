@@ -54,8 +54,8 @@ const Navbar = () => {
           <NavLink href="#achievement">Achievement</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.github} target="_blank">
-            Github Profile
+          <GitHubButton href={Bio.linkedin} target="_blank">
+            LinkedIn Profile
           </GitHubButton>
         </ButtonContainer>
         {isOpen && (

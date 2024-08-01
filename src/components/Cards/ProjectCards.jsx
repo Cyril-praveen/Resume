@@ -134,7 +134,8 @@ const ProjectCards = ({project,setOpenModal}) => {
             <Details>
                 <Title>{project.title}</Title>
                 <Date>{project.date}</Date>
-                <Description>{project.description}</Description>
+                <Description>
+                    {project.description}</Description>
             </Details>
             <Members>
                 {project.member?.map((member) => (

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { skills } from "../../data/constants";
+import { skills1 } from "../../data/constants";
 
 const Container = styled.div`
   display: flex;
@@ -101,6 +101,12 @@ const SkillItem = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
+  transition: all 0.27s ease-in-out;
+  &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 0 5px 4px rgba(250, 250, 250, 0.15);
+        filter: brightness(1.1);
+    }
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;
@@ -123,7 +129,7 @@ const Skills = () => {
         <Title>Mechanical Engineering Skills</Title>
         <Desc>"Industrial engineering is fu for sure "</Desc>
         <SkillsContainer>
-          {skills.map((skill) => (
+          {skills1.map((skill) => (
             <Skill>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
