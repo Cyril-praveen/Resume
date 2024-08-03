@@ -50,7 +50,7 @@ const HeroSection = () => {
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">
-            <Img src="https://github.com/sonishstark/Portfolio-website/blob/main/src/images/HeroImage.png?raw=true" alt="hero-image" />
+            <Img src="https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Video/GIF%20face.gif?raw=true" alt="hero-image" />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>

@@ -161,12 +161,12 @@ export const skills1 = [
       {
         name: "CATIA V5",
         image:
-          "https://github.com/sonishstark/Portfolio-website/blob/main/public/js.png?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Inventory%20Management/9.svg?raw=true",
       },
       {
         name: "AutoCAD",
         image:
-          "https://github.com/sonishstark/Portfolio-website/blob/main/public/sql.png?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Inventory%20Management/10.svg?raw=true",
       },
       
       {
@@ -178,67 +178,73 @@ export const skills1 = [
       {
         name: "Autodesk Alias",
         image:
-          "https://github.com/sonishstark/Portfolio-website/blob/main/public/c.png?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Inventory%20Management/11.svg?raw=true",
       },
       {
         name: "Prusa Slicer 3D",
         image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Scikit%20learn.png?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Inventory%20Management/12.svg?raw=true",
       },
       {
         name: "KissSoft( Gear Design)",
         image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Scikit%20learn.png?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Inventory%20Management/13.svg?raw=true",
       },
       {
         name: "ANSYS (Rigid Bodies)",
         image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Scikit%20learn.png?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/ANSYS.jpeg?raw=true",
       },
       {
         name: "AVL Cruise",
         image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Scikit%20learn.png?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/AVL%20Cruise.png?raw=true",
       },
     ],
   },
   {
-    title: "ERP & SupplyChian Expertise",
+    title: "SKills",
     skills: [
       {
-        name: "Procurement",
+        name: "GD&T",
         image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/Proceurement.svg?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/checked%20(1).png?raw=true",
       },
       {
-        name: "Forecasting",
+        name: "Parametric Modelling",
         image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/Forecasting.svg?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/checked%20(1).png?raw=true",
       },
       {
-        name: "Production Planning",
+        name: "CAE",
         image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/Production%20Planning.svg?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/checked%20(1).png?raw=true",
+      },
+      
+      {
+        name: "Dynamic System",
+        image:
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/checked%20(1).png?raw=true",
       },
       {
-        name: "Supply Chain & Logistics Planning",
+        name: "Research",
         image:
-          "https://github.com/sonishstark/Portfolio-website/blob/main/public/Arduino2.png?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/checked%20(1).png?raw=true",
       },
       {
-        name: "Capacity Planning",
+        name: "Documentation",
         image:
-          "https://github.com/sonishstark/Portfolio-website/blob/main/public/Arduino2.png?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/checked%20(1).png?raw=true",
       },
       {
-        name: "SOP & MRP planning",
+        name: "Patent and Publication",
         image:
-          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/Inventory%20mangement.svg?raw=true",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/checked%20(1).png?raw=true",
       },
       {
-        name: "SAP",
+        name: "E-Powertrain Design",
         image:
-          "https://raw.githubusercontent.com/sonishstark/Portfolio-website/bea10f030202fb553a22c550317c355dc4a4cc4d/public/postman.svg",
+          "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/checked%20(1).png?raw=true",
       },
     ],
   },
@@ -246,18 +252,19 @@ export const skills1 = [
 export const experiences = [
   {
     id: 0,
-    img: "https://github.com/sonishstark/Portfolio-website/blob/main/public/Accenture.png?raw=true",
+    img: "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/concordia_university_logo.jpeg?raw=true",
     role: "Teaching Assitant - Tutor",
     company: "Concorida Univeristy",
-    date: "Jan 2024 - Present",
+    date: "January 2024 - Present",
     description: [
-      "Tutored and evaluated MECH 343 students, providing detailed guidance on kinematic and dynamic analysis of linkages, machine and gearbox design, and SolidWorks, resulting in improved student performance.",
+      "Tutored and evaluated Undergrads(MECH343) : Delivered comprehensive tutorials on kinematic and dynamic analysis of linkages, machines and gearbox design, and SolidWorks, offering personalized support and constructive feedback.",
+      "Designed and evaluated assignments, resulting in improved student performance and deeper understanding of mechanical engineering concepts."
     ],
-    skills: ["Kinematics of Machinery", "CAD", "Design and Validation"],
+    skills: ["Mechanical Engineering ", "CAD Design", "Kinematic Analysis", "SolidWorks", "Gearbox Design"],
   },
   {
     id: 1,
-    img: "https://github.com/sonishstark/Portfolio-website/blob/main/public/Accenture.png?raw=true",
+    img: "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Experiences/Montra%20Electric.jpg?raw=true",
     role: "Engineer",
     company: "Montra Electric - Tubes Investment Of India",
     date: "Aug 2022- Aug 2023",
@@ -277,25 +284,28 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://github.com/sonishstark/Portfolio-website/blob/main/public/Accenture.png?raw=true",
+    img: "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Faureica.jpg?raw=true",
     role: "Process Intern",
     company: "FORVIA",
     date: "Nov 2021 - Apr 2022",
     description: [
-      "Reduced airbag assembly cycle time by 15% through process optimization and tool change maintenance, conducted root cause analysis, and applied Lean Six Sigma tools to enhance production efficiency while maintaining safety standards",
+      "Collect and Analysed data followingCollected and analyzed data using DMAIC methodology to drive sustainable improvements in manufacturing processes, a DMAIC to implement Improvements in manufacturing process",
+      "Team Coordination: Coordinated manpower to meet tight timelines in the warehouse, ensuring efficient operations",
+      "Quality and Safety Compliance: Ensured adherence to proper methods and procedures, maintaining high standards of quality, safety, and environmental responsibility.",
+      "Safety Management: Updated safety talks and addressed attendance issues, promoting a culture of safety and accountability."
     ],
-    skills: ["Lean Sigma", "Process"],
+    skills: ["Manufacturing Process Improvement", "Lean Six Sigma", "Quality Control Management", "Supply Chain Optimization","Operational Excellence"],
   },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://github.com/sonishstark/Portfolio-website/blob/main/public/GW.jpg?raw=true",
+    img: "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/concordia_university_logo.jpeg?raw=true",
     school: "Concorida Univeristy",
     date: "Sep 2023 - Apr 2025",
     description: [
-      "Courseworks : Discrete System Simulation, Applied Proababilty, Production Planning and Inventory Control, Data Analytics, Applied Optimisation, Supply Chain planning and control, Robotics and Control .",
+      "Comprehensive Curriculum: Coursework includes:Discrete System Simulation: Focus on modeling and analyzing complex systems to improve decision-making.","Applied Probability and Statistics: Emphasis on statistical methods and their applications in engineering.","Production Planning and Inventory Control: Study of techniques for efficient production and inventory management.","Data Analytics: Training in data-driven decision-making using advanced analytics techniques.","Applied Optimization: Exploration of optimization methods for improving system performance.","Supply Chain Planning and Control: Focus on strategies and technologies for effective supply chain management.","Robotics and Control: Study of automation, control systems, and robotics in industrial applications.",
     ],
     degree: "Masters in Industrial Engineering (MEng)",
   },
@@ -441,28 +451,47 @@ export const TimeLineData = [
 export const achievement = [
   {
     id: 0,
-    title: "Weather Forecast",
-    date: "Sept 2023 - Nov 2023",
+    title: "2nd Place - Alternative Fuels Research",
+    date: "March 2023",
     description:
-      "Using the Kemal framework and the Crystal programming language, we build a weather prediction website that can be used to track the weather in a specific area and be adapted to our daily lives. Features include real-time weather data, rainfall predictions, geolocation selection, weather alerts, and agricultural insights to help with planning based on the predicted data.",
+      "Presented research findings on innovative alternative fuel technologies at EXCON 2022. Demonstrated a comprehensive understanding of sustainable energy solutions, focusing on biofuels and hydrogen. The research contributed to the extraction of biofuels from waste oils and their injection into CI engines with hydrogen enrichment, aiming to enhance performance and reduce pollution.Recognized for clarity, technical depth, and potential real-world applications.",
     image:
-      "https://github.com/sonishstark/Portfolio-website/blob/main/public/Weather.png?raw=true",
-    tags: ["Cystal", "Kemal", "JavaScript", "HTML", "CSS"],
+      "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Acheivement/Achivment%201.png?raw=true",
+    tags: ["Biofuel", "Hydrogen", "Research", "Green Energy", "Waste Oil Biofuel Extraction"],
     category: "web app",
     github: "https://github.com/pradhyuman-yadav/csci_6221",
     member: [
-      {
-        name: "Pradhyuman Yadav",
-        img: "https://avatars.githubusercontent.com/u/44358290?v=4",
-        linkedin: "https://www.linkedin.com/in/pradhyuman-yadav/",
-        github: "https://github.com/pradhyuman-yadav",
-      },
-      {
-        name: "Sonish Sasidharan",
-        img: "https://avatars.githubusercontent.com/u/52243863?v=4",
-        linkedin: "https://www.linkedin.com/in/sonish-s/",
-        github: "https://github.com/sonishstark",
-      },
+     
+    ],
+  },
+  {
+    id: 0,
+    title: "Best Performer",
+    date: "August 2023",
+    description:
+      "Was nomiated as the best candidates among 25 GET during a three month tranning period help in the field of Industry and Electric vehicles.",
+    image:
+      "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Acheivement/Montra%20Electric.png?raw=true",
+    tags: ["Public Speaking", "Presentaion", "Electric vehicles", "Process", "Manufacturing"],
+    category: "web app",
+    github: "https://github.com/pradhyuman-yadav/csci_6221",
+    member: [
+     
+    ],
+  },
+  {
+    id: 0,
+    title: "2nd Place - Alternative Fuels Research",
+    date: "March 2023",
+    description:
+      "Presented research findings on innovative alternative fuel technologies at EXCON 2022. Demonstrated a comprehensive understanding of sustainable energy solutions, focusing on biofuels and hydrogen. The research contributed to the extraction of biofuels from waste oils and their injection into CI engines with hydrogen enrichment, aiming to enhance performance and reduce pollution.Recognized for clarity, technical depth, and potential real-world applications.",
+    image:
+      "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Acheivement/Achivment%201.png?raw=true",
+    tags: ["Biofuel", "Hydrogen", "Research", "Green Energy", "Waste Oil Biofuel Extraction"],
+    category: "web app",
+    github: "https://github.com/pradhyuman-yadav/csci_6221",
+    member: [
+     
     ],
   },
 ];
