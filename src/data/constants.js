@@ -168,7 +168,7 @@ export const skills1 = [
         image:
           "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Inventory%20Management/10.svg?raw=true",
       },
-      
+
       {
         name: "MATLAB",
         image:
@@ -220,7 +220,7 @@ export const skills1 = [
         image:
           "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Newset%20of%20Icons/checked%20(1).png?raw=true",
       },
-      
+
       {
         name: "Dynamic System",
         image:
@@ -258,9 +258,15 @@ export const experiences = [
     date: "January 2024 - Present",
     description: [
       "Tutored and evaluated Undergrads(MECH343) : Delivered comprehensive tutorials on kinematic and dynamic analysis of linkages, machines and gearbox design, and SolidWorks, offering personalized support and constructive feedback.",
-      "Designed and evaluated assignments, resulting in improved student performance and deeper understanding of mechanical engineering concepts."
+      "Designed and evaluated assignments, resulting in improved student performance and deeper understanding of mechanical engineering concepts.",
     ],
-    skills: ["Mechanical Engineering ", "CAD Design", "Kinematic Analysis", "SolidWorks", "Gearbox Design"],
+    skills: [
+      "Mechanical Engineering ",
+      "CAD Design",
+      "Kinematic Analysis",
+      "SolidWorks",
+      "Gearbox Design",
+    ],
   },
   {
     id: 1,
@@ -292,9 +298,15 @@ export const experiences = [
       "Collect and Analysed data followingCollected and analyzed data using DMAIC methodology to drive sustainable improvements in manufacturing processes, a DMAIC to implement Improvements in manufacturing process",
       "Team Coordination: Coordinated manpower to meet tight timelines in the warehouse, ensuring efficient operations",
       "Quality and Safety Compliance: Ensured adherence to proper methods and procedures, maintaining high standards of quality, safety, and environmental responsibility.",
-      "Safety Management: Updated safety talks and addressed attendance issues, promoting a culture of safety and accountability."
+      "Safety Management: Updated safety talks and addressed attendance issues, promoting a culture of safety and accountability.",
     ],
-    skills: ["Manufacturing Process Improvement", "Lean Six Sigma", "Quality Control Management", "Supply Chain Optimization","Operational Excellence"],
+    skills: [
+      "Manufacturing Process Improvement",
+      "Lean Six Sigma",
+      "Quality Control Management",
+      "Supply Chain Optimization",
+      "Operational Excellence",
+    ],
   },
 ];
 
@@ -305,7 +317,13 @@ export const education = [
     school: "Concorida Univeristy",
     date: "Sep 2023 - Apr 2025",
     description: [
-      "Comprehensive Curriculum: Coursework includes:Discrete System Simulation: Focus on modeling and analyzing complex systems to improve decision-making.","Applied Probability and Statistics: Emphasis on statistical methods and their applications in engineering.","Production Planning and Inventory Control: Study of techniques for efficient production and inventory management.","Data Analytics: Training in data-driven decision-making using advanced analytics techniques.","Applied Optimization: Exploration of optimization methods for improving system performance.","Supply Chain Planning and Control: Focus on strategies and technologies for effective supply chain management.","Robotics and Control: Study of automation, control systems, and robotics in industrial applications.",
+      "Comprehensive Curriculum: Coursework includes:Discrete System Simulation: Focus on modeling and analyzing complex systems to improve decision-making.",
+      "Applied Probability and Statistics: Emphasis on statistical methods and their applications in engineering.",
+      "Production Planning and Inventory Control: Study of techniques for efficient production and inventory management.",
+      "Data Analytics: Training in data-driven decision-making using advanced analytics techniques.",
+      "Applied Optimization: Exploration of optimization methods for improving system performance.",
+      "Supply Chain Planning and Control: Focus on strategies and technologies for effective supply chain management.",
+      "Robotics and Control: Study of automation, control systems, and robotics in industrial applications.",
     ],
     degree: "Masters in Industrial Engineering (MEng)",
   },
@@ -332,94 +350,89 @@ export const projects = [
     ],
 
     image:
-      "https://github.com/sonishstark/Portfolio-website/blob/main/public/Weather.png?raw=true",
-    tags: ["Cystal", "Kemal", "JavaScript", "HTML", "CSS"],
-    category: "web app",
-    github: "https://github.com/pradhyuman-yadav/csci_6221",
+      "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Project/Battery%20pack%20model.png?raw=true",
+    tags: ["CAD", "CAE", "GD&T", "Mechanical", "Electric Vehicle"],
+    category: "CAD",
+    github:
+      "https://www.canva.com/design/DAF08WrpjJ0/wcN7Ty-0EmCOP7MhscjNjQ/view?utm_content=DAF08WrpjJ0&utm_campaign=designshare&utm_medium=link&utm_source=editor",
     member: [
       {
-        name: "Pradhyuman Yadav",
-        img: "https://avatars.githubusercontent.com/u/44358290?v=4",
-        linkedin: "https://www.linkedin.com/in/pradhyuman-yadav/",
-        github: "https://github.com/pradhyuman-yadav",
-      },
-      {
-        name: "Sonish Sasidharan",
-        img: "https://avatars.githubusercontent.com/u/52243863?v=4",
-        linkedin: "https://www.linkedin.com/in/sonish-s/",
-        github: "https://github.com/sonishstark",
+        name: "Cyril Praveenraj Jeswanthraj",
+        img: "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/ME/Profile%20photo.svg?raw=true",
+        linkedin: "https://www.linkedin.com/in/cyrilpraveen/",
       },
     ],
   },
   {
     id: 1,
-    title: "Group Media",
-    date: "Jan 2021 - May 2021",
-    description:
-      "Developed a media website with HTML and JavaScript that allows users to explore more than 40 groups for socializing and Networking. It is an open-space website featuring several organized groups and their interacting data. The goal of this platform was for the users to share knowledge, information and communicate among themselves.",
+    title: "Planing And Setting-up of fiver distribution hubs",
+    date: "Jan 2024 - Apr 2024",
+    description: [
+      "This project involves planning and setting up Internet service hubs across a city, covering residential, business, and educational areas. The objective is to minimize setup costs using a mathematical model developed in CPLEX. The model optimizes hub locations and network configurations to ensure comprehensive coverage. This solution balances cost efficiency and service quality for urban connectivity.",
+    ],
     image:
-      "https://github.com/sonishstark/Portfolio-website/blob/main/public/Gorup_media.jpg?raw=true",
-    tags: ["JavaScript", "Django", "Bootstrap", "HTML", "CSS", "Apache Tomcat"],
-    category: "web app",
-    github: "https://github.com/sonishstark/Group_Media",
+      "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Project/CPLEX.jpeg?raw=true",
+    tags: [
+      "CPLEX",
+      "Applied Optimisation",
+      "Optimization Modeling",
+      "Operations Analyst",
+      "MILP",
+    ],
+    category: "CPLEX",
+    github:
+      "https://www.canva.com/design/DAGEAbrpH14/Lc8-10hmQNpblAc8VdhTzg/view?utm_content=DAGEAbrpH14&utm_campaign=designshare&utm_medium=link&utm_source=editor",
     member: [
       {
-        name: "Vivian Xavier",
-        img: "https://1000logos.net/wp-content/uploads/2021/05/Fallen-logo.png",
-        linkedin: "https://www.linkedin.com/in/vivian-xavier-460899189/",
-      },
-      {
-        name: "Sonish Sasidharan",
-        img: "https://avatars.githubusercontent.com/u/52243863?v=4",
-        linkedin: "https://www.linkedin.com/in/sonish-s/",
-        github: "https://github.com/sonishstark",
+        name: "Cyril Praveenraj Jeswanthraj",
+        img: "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/ME/Profile%20photo.svg?raw=true",
+        linkedin: "https://www.linkedin.com/in/cyrilpraveen/",
       },
     ],
   },
   {
     id: 2,
-    title: "Snake Game",
-    date: "Jul 2020 - Aug 2020",
-    description:
-      "created a 2D-panel game with PyCharm and Python that has a user-interface (UI) enabling the users to immerse in an interactive gaming experience using the small pop panel.",
+    title: "Screw Defect detection using ML",
+    date: "Sep 2023 - Dec 2023",
+    description: [
+      "The aim of this project is to use machine learning to reduce human time, errors, and costs in quality inspection","A machine learning model will be trained using both defective and non-defective images of screws","The algorithm will identify whether an image is defective or non-defective upon uploading",
+    ],
     image:
-      "https://github.com/sonishstark/Portfolio-website/blob/main/public/snake_game.png?raw=true",
-    tags: ["Python", "PyCharm", "JetBrains", "Turtle", "Unity"],
+      "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Project/Screw%20Defect%20Detection.jpg?raw=true",
+    tags: ["Python", "PyCharm", "Neural Netowork", "Machine Learning", "Random forest"],
     category: "others",
-    github: "https://github.com/sonishstark/Snake_Game",
+    github: "https://www.canva.com/design/DAGM8yVc-e4/IJdNvHGhf60tZZCedXQy9w/view?utm_content=DAGM8yVc-e4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
     member: [
       {
-        name: "Sonish Sasidharan",
-        img: "https://avatars.githubusercontent.com/u/52243863?v=4",
-        linkedin: "https://www.linkedin.com/in/sonish-s/",
-        github: "https://github.com/sonishstark",
+        name: "Cyril Praveenraj Jeswanthraj",
+        img: "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/ME/Profile%20photo.svg?raw=true",
+        linkedin: "https://www.linkedin.com/in/cyrilpraveen/",
       },
     ],
   },
   {
     id: 3,
-    title: "AI sign detection",
-    date: "Dec 2019 (Internship)",
-    description:
-      "Developed AI for detecting hand signs, discovered several methods for interpreting data by executing tasks in an intelligent manner, and gained an understanding of how cognitive AI functions work based on deep and reinforcement learning.",
+    title: "Optimizing Glulam Production Through Simulation Analysis",
+    date: "Jan 2024 - Apr 2024",
+    description:[
+      "Objective: Simulate and optimize the fabrication process of Glued Laminated Timber (Glulam) using Arena software","Key Tasks: Process Flow Analysis: Simulated various stages including inspection, finger jointing, drying, planing, gluing, pressing, and finishing","Performance Metrics: Measured number of finished products, work in process (WIP), operator utilization, and total labor costs","Improvement Scenarios: Implemented Lean principles, such as reducing press machine setup time and reconfiguring the factory layout to a U-shape.","Sensitivity Analysis: Assessed impact of a 20% increase in arrival rates on production and efficiency.","Outcomes: Identified bottlenecks, optimized resource allocation, and proposed enhancements to improve throughput and reduce cycle time.","Deliverables: Comprehensive report, simulation files, and a PowerPoint presentation detailing methodology, results, and recommendations."],
     image:
-      "https://github.com/sonishstark/Portfolio-website/blob/main/public/hand_sign.jpg?raw=true",
-    tags: ["Python", "TensorFLow", "Neural Network", "Keras"],
+      "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Project/DSS.png?raw=true",
+    tags: ["Arena", "Process Optmisation", "Lean manufacturing ", "Simulation Analysis"],
     category: "others",
     github:
-      "https://github.com/sonishstark/Object_Detection/blob/main/AI_Certificate.pdf",
+      "",
     member: [
       {
-        name: "Sonish Sasidharan",
-        img: "https://avatars.githubusercontent.com/u/52243863?v=4",
-        linkedin: "https://www.linkedin.com/in/sonish-s/",
-        github: "https://github.com/sonishstark",
+        name: "Cyril Praveenraj Jeswanthraj",
+        img: "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/ME/Profile%20photo.svg?raw=true",
+        linkedin: "https://www.linkedin.com/in/cyrilpraveen/",
       },
     ],
   },
   {
     id: 10,
-    title: "Object Detection",
+    title: "Simulation",
     date: "Dec 2018 (Internship)",
     description:
       "Created a proximity tool with a sensor that can recognize objects in motion and determine how close they are, so that the user can be aware it  also developed the ability to record substances in front of it and move accordingly to avoid obstruction.",
@@ -457,12 +470,16 @@ export const achievement = [
       "Presented research findings on innovative alternative fuel technologies at EXCON 2022. Demonstrated a comprehensive understanding of sustainable energy solutions, focusing on biofuels and hydrogen. The research contributed to the extraction of biofuels from waste oils and their injection into CI engines with hydrogen enrichment, aiming to enhance performance and reduce pollution.Recognized for clarity, technical depth, and potential real-world applications.",
     image:
       "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Acheivement/Achivment%201.png?raw=true",
-    tags: ["Biofuel", "Hydrogen", "Research", "Green Energy", "Waste Oil Biofuel Extraction"],
+    tags: [
+      "Biofuel",
+      "Hydrogen",
+      "Research",
+      "Green Energy",
+      "Waste Oil Biofuel Extraction",
+    ],
     category: "web app",
     github: "https://github.com/pradhyuman-yadav/csci_6221",
-    member: [
-     
-    ],
+    member: [],
   },
   {
     id: 0,
@@ -472,26 +489,54 @@ export const achievement = [
       "Was nomiated as the best candidates among 25 GET during a three month tranning period help in the field of Industry and Electric vehicles.",
     image:
       "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Acheivement/Montra%20Electric.png?raw=true",
-    tags: ["Public Speaking", "Presentaion", "Electric vehicles", "Process", "Manufacturing"],
+    tags: [
+      "Public Speaking",
+      "Presentaion",
+      "Electric vehicles",
+      "Process",
+      "Manufacturing",
+    ],
     category: "web app",
     github: "https://github.com/pradhyuman-yadav/csci_6221",
-    member: [
-     
-    ],
+    member: [],
   },
   {
     id: 0,
-    title: "2nd Place - Alternative Fuels Research",
-    date: "March 2023",
+    title: "Patent",
+    date: "January 2020",
     description:
-      "Presented research findings on innovative alternative fuel technologies at EXCON 2022. Demonstrated a comprehensive understanding of sustainable energy solutions, focusing on biofuels and hydrogen. The research contributed to the extraction of biofuels from waste oils and their injection into CI engines with hydrogen enrichment, aiming to enhance performance and reduce pollution.Recognized for clarity, technical depth, and potential real-world applications.",
+      "Filed a patents for a unique collapsible airbag cushion that activates upon detecting a fall, using shape memory alloys and an electrical actuator. This innovation swiftly deploys a protective barrier, dramatically reducing the risk of damage. Its sleek, foldable design remains unobtrusive until needed, blending seamlessly with the device's aesthetics. This invention represents a cutting-edge fusion of smart materials and engineering, providing superior protection for modern electronics.",
     image:
-      "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Acheivement/Achivment%201.png?raw=true",
-    tags: ["Biofuel", "Hydrogen", "Research", "Green Energy", "Waste Oil Biofuel Extraction"],
+      "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Acheivement/Phone%20case.jpg?raw=true",
+    tags: [
+      "Biofuel",
+      "Hydrogen",
+      "Research",
+      "Green Energy",
+      "Waste Oil Biofuel Extraction",
+    ],
     category: "web app",
     github: "https://github.com/pradhyuman-yadav/csci_6221",
-    member: [
-     
+    member: [],
+  },
+  {
+    id: 0,
+    title:
+      "Investigation of Bio-Diesel in Uncoated Piston Head Vs Bio-Diesel in Coated Head",
+    date: "January 2024",
+    description:
+      "Innovative Alternative Fuel Technologies: Presented cutting-edge research on sustainable energy solutions, exploring the potential of biofuels and hydrogen as alternative fuel sources.Demonstrated a deep understanding of sustainable energy solutions, showcasing expertise in the field of alternative fuel technologies.DOI 10.1088/1755-1315/1100/1/012014",
+    image:
+      "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Acheivement/IOP%20science.png?raw=true",
+    tags: [
+      "Biofuel",
+      "Hydrogen",
+      "Research",
+      "Green Energy",
+      "Waste Oil Biofuel Extraction",
     ],
+    category: "web app",
+    github: "https://github.com/pradhyuman-yadav/csci_6221",
+    member: [],
   },
 ];

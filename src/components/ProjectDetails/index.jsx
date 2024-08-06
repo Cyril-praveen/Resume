@@ -242,7 +242,7 @@ const index = ({ openModal, setOpenModal }) => {
           )}
           <ButtonGroup>
             <Button dull href={project?.github} target="new">
-              View Project in GitHub
+              View Project 
             </Button>
           </ButtonGroup>
         </Wrapper>
