@@ -15,7 +15,7 @@ import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 import Skills1 from "./components/Skills1/index.js";
-import Achievement from "./components/Achievement/index.js"
+import Achievement from "./components/Achievement/index.js";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -24,12 +24,20 @@ const Body = styled.div`
 `;
 
 const Wrapper = styled.div`
-  background: linear-gradient(343.07deg, rgb(23 92 230 / 7%) 5.71%, #0b1e30f7 64.83%);
+  background: linear-gradient(
+    343.07deg,
+    rgb(23 92 230 / 7%) 5.71%,
+    #0b1e30f7 64.83%
+  );
   width: 100%;
 `;
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
+  const [archievementOpenModal, setArchievementOpenModal] = useState({
+    state: false,
+    project: null,
+  });
   console.log(openModal);
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
@@ -39,18 +47,27 @@ function App() {
           <HeroSection />
           <Wrapper>
             <Skills />
-            <Skills1/>
+            <Skills1 />
             <Experience />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
-            <Achievement/>
+            <Achievement
+              openModal={archievementOpenModal}
+              setOpenModal={setArchievementOpenModal}
+            />
             <Contact />
           </Wrapper>
           <Footer />
           {openModal.state && (
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          )}
+          {archievementOpenModal.state && (
+            <ProjectDetails
+              openModal={archievementOpenModal}
+              setOpenModal={setArchievementOpenModal}
+            />
           )}
         </Body>
       </Router>

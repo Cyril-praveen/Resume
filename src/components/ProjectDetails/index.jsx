@@ -51,8 +51,12 @@ const Date = styled.div`
     font-size: 12px;
   }
 `;
-const Li=styled.li`text-align:justify`
-const Ul=styled.ul`padding-left:20px`
+const Li = styled.li`
+  text-align: justify;
+`;
+const Ul = styled.ul`
+  padding-left: 20px;
+`;
 const Desc = styled.div`
   font-size: 16px;
   font-weight: 400;
@@ -70,6 +74,7 @@ const Image = styled.img`
   border-radius: 12px;
   margin-top: 30px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #fff;
 `;
 
 const Label = styled.div`
@@ -207,13 +212,13 @@ const index = ({ openModal, setOpenModal }) => {
             ))}
           </Tags>
           <Desc>
-          <Ul>
-          {project.description?.map((desc, index) => (
-            <Li key={index}>{desc}</Li>
-          ))}
-          </Ul>
+            <Ul>
+              {project?.description?.map((desc, index) => (
+                <Li key={index}>{desc}</Li>
+              ))}
+            </Ul>
           </Desc>
-          {project.member && (
+          {project.member.length > 0 && (
             <>
               <Label>Members</Label>
               <Members>
@@ -242,7 +247,7 @@ const index = ({ openModal, setOpenModal }) => {
           )}
           <ButtonGroup>
             <Button dull href={project?.github} target="new">
-              View Project 
+              View Project
             </Button>
           </ButtonGroup>
         </Wrapper>

@@ -16,7 +16,7 @@ const Button = styled.button`
 `;
 const Card = styled.div`
   width: 500px;
-  height: 550px;
+  height: 600px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
@@ -35,14 +35,36 @@ const Card = styled.div`
   &:hover ${Button} {
     display: block;
   }
+  @media only screen and (max-width: 3000px) {
+    width: 430px;
+  }
+  @media only screen and (max-width: 1336px) {
+    width: 350px;
+  }
+  @media only screen and (max-width: 1280px) {
+    width: 330px;
+  }
+  @media only screen and (max-width: 1080px) {
+    width: 280px;
+  }
+
+  /* @media only screen and (max-width: 800px) {
+    width: 600px;
+  } */
+  @media only screen and (max-width: 500px) {
+    width: 90%;
+  }
 `;
 
 const Image = styled.img`
   width: 100%;
-  height: 280px;
+  /* height: 280px; */
+  height: 60%;
   background-color: ${({ theme }) => theme.white};
   border-radius: 10px;
   box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+  background: #fff;
 `;
 
 const Tags = styled.div`
@@ -71,7 +93,8 @@ const Details = styled.div`
   padding: 0px 2px;
 `;
 const Title = styled.div`
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 15px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_secondary};
   overflow: hidden;
@@ -120,9 +143,9 @@ const Avatar = styled.img`
   border: 3px solid ${({ theme }) => theme.card};
 `;
 
-const CustomCard = ({ achievement }) => {
+const CustomCard = ({ achievement, setOpenModal }) => {
   return (
-    <Card>
+    <Card onClick={() => setOpenModal({ state: true, project: achievement })}>
       <Image src={achievement.image} />
       <Tags>
         {achievement.tags?.map((tag, index) => (
@@ -134,11 +157,13 @@ const CustomCard = ({ achievement }) => {
         <Date>{achievement.date}</Date>
         <Description>{achievement.description}</Description>
       </Details>
-      <Members>
-        {achievement.member?.map((member) => (
-          <Avatar src={member.img} />
-        ))}
-      </Members>
+      {achievement.member.length > 0 && (
+        <Members>
+          {achievement.member?.map((member) => (
+            <Avatar src={member.img} />
+          ))}
+        </Members>
+      )}
     </Card>
   );
 };

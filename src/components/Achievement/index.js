@@ -169,15 +169,19 @@ const responsive = {
     items: 3,
   },
   desktop1: {
-    breakpoint: { max: 1800, min: 1200 },
+    breakpoint: { max: 1800, min: 800 },
+    items: 3,
+  },
+  desktopMine: {
+    breakpoint: { max: 768, min: 600 },
     items: 2,
   },
   mobile: {
-    breakpoint: { max: 1100, min: 0 },
+    breakpoint: { max: 600, min: 0 },
     items: 1,
   },
 };
-const index = () => {
+const index = ({ openModal, setOpenModal }) => {
   return (
     <>
       <Container id="achievement">
@@ -203,7 +207,11 @@ const index = () => {
           style={{ padding: 20 }}
         >
           {achievement.map((achievement, index) => (
-            <AchievementCard achievement={achievement} />
+            <AchievementCard
+              achievement={achievement}
+              openModal={openModal}
+              setOpenModal={setOpenModal}
+            />
           ))}
         </Carousel>
       </div>

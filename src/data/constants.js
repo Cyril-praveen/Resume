@@ -395,13 +395,22 @@ export const projects = [
     title: "Screw Defect detection using ML",
     date: "Sep 2023 - Dec 2023",
     description: [
-      "The aim of this project is to use machine learning to reduce human time, errors, and costs in quality inspection","A machine learning model will be trained using both defective and non-defective images of screws","The algorithm will identify whether an image is defective or non-defective upon uploading",
+      "The aim of this project is to use machine learning to reduce human time, errors, and costs in quality inspection",
+      "A machine learning model will be trained using both defective and non-defective images of screws",
+      "The algorithm will identify whether an image is defective or non-defective upon uploading",
     ],
     image:
       "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Project/Screw%20Defect%20Detection.jpg?raw=true",
-    tags: ["Python", "PyCharm", "Neural Netowork", "Machine Learning", "Random forest"],
+    tags: [
+      "Python",
+      "PyCharm",
+      "Neural Netowork",
+      "Machine Learning",
+      "Random forest",
+    ],
     category: "others",
-    github: "https://www.canva.com/design/DAGM8yVc-e4/IJdNvHGhf60tZZCedXQy9w/view?utm_content=DAGM8yVc-e4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+    github:
+      "https://www.canva.com/design/DAGM8yVc-e4/IJdNvHGhf60tZZCedXQy9w/view?utm_content=DAGM8yVc-e4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
     member: [
       {
         name: "Cyril Praveenraj Jeswanthraj",
@@ -414,14 +423,25 @@ export const projects = [
     id: 3,
     title: "Optimizing Glulam Production Through Simulation Analysis",
     date: "Jan 2024 - Apr 2024",
-    description:[
-      "Objective: Simulate and optimize the fabrication process of Glued Laminated Timber (Glulam) using Arena software","Key Tasks: Process Flow Analysis: Simulated various stages including inspection, finger jointing, drying, planing, gluing, pressing, and finishing","Performance Metrics: Measured number of finished products, work in process (WIP), operator utilization, and total labor costs","Improvement Scenarios: Implemented Lean principles, such as reducing press machine setup time and reconfiguring the factory layout to a U-shape.","Sensitivity Analysis: Assessed impact of a 20% increase in arrival rates on production and efficiency.","Outcomes: Identified bottlenecks, optimized resource allocation, and proposed enhancements to improve throughput and reduce cycle time.","Deliverables: Comprehensive report, simulation files, and a PowerPoint presentation detailing methodology, results, and recommendations."],
+    description: [
+      "Objective: Simulate and optimize the fabrication process of Glued Laminated Timber (Glulam) using Arena software",
+      "Key Tasks: Process Flow Analysis: Simulated various stages including inspection, finger jointing, drying, planing, gluing, pressing, and finishing",
+      "Performance Metrics: Measured number of finished products, work in process (WIP), operator utilization, and total labor costs",
+      "Improvement Scenarios: Implemented Lean principles, such as reducing press machine setup time and reconfiguring the factory layout to a U-shape.",
+      "Sensitivity Analysis: Assessed impact of a 20% increase in arrival rates on production and efficiency.",
+      "Outcomes: Identified bottlenecks, optimized resource allocation, and proposed enhancements to improve throughput and reduce cycle time.",
+      "Deliverables: Comprehensive report, simulation files, and a PowerPoint presentation detailing methodology, results, and recommendations.",
+    ],
     image:
       "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Project/DSS.png?raw=true",
-    tags: ["Arena", "Process Optmisation", "Lean manufacturing ", "Simulation Analysis"],
+    tags: [
+      "Arena",
+      "Process Optmisation",
+      "Lean manufacturing ",
+      "Simulation Analysis",
+    ],
     category: "others",
-    github:
-      "",
+    github: "",
     member: [
       {
         name: "Cyril Praveenraj Jeswanthraj",
@@ -466,8 +486,9 @@ export const achievement = [
     id: 0,
     title: "2nd Place - Alternative Fuels Research",
     date: "March 2023",
-    description:
+    description: [
       "Presented research findings on innovative alternative fuel technologies at EXCON 2022. Demonstrated a comprehensive understanding of sustainable energy solutions, focusing on biofuels and hydrogen. The research contributed to the extraction of biofuels from waste oils and their injection into CI engines with hydrogen enrichment, aiming to enhance performance and reduce pollution.Recognized for clarity, technical depth, and potential real-world applications.",
+    ],
     image:
       "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Acheivement/Achivment%201.png?raw=true",
     tags: [
@@ -485,8 +506,9 @@ export const achievement = [
     id: 0,
     title: "Best Performer",
     date: "August 2023",
-    description:
+    description: [
       "Was nomiated as the best candidates among 25 GET during a three month tranning period help in the field of Industry and Electric vehicles.",
+    ],
     image:
       "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Acheivement/Montra%20Electric.png?raw=true",
     tags: [
@@ -504,8 +526,9 @@ export const achievement = [
     id: 0,
     title: "Patent",
     date: "January 2020",
-    description:
+    description: [
       "Filed a patents for a unique collapsible airbag cushion that activates upon detecting a fall, using shape memory alloys and an electrical actuator. This innovation swiftly deploys a protective barrier, dramatically reducing the risk of damage. Its sleek, foldable design remains unobtrusive until needed, blending seamlessly with the device's aesthetics. This invention represents a cutting-edge fusion of smart materials and engineering, providing superior protection for modern electronics.",
+    ],
     image:
       "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Acheivement/Phone%20case.jpg?raw=true",
     tags: [
@@ -524,8 +547,9 @@ export const achievement = [
     title:
       "Investigation of Bio-Diesel in Uncoated Piston Head Vs Bio-Diesel in Coated Head",
     date: "January 2024",
-    description:
+    description: [
       "Innovative Alternative Fuel Technologies: Presented cutting-edge research on sustainable energy solutions, exploring the potential of biofuels and hydrogen as alternative fuel sources.Demonstrated a deep understanding of sustainable energy solutions, showcasing expertise in the field of alternative fuel technologies.DOI 10.1088/1755-1315/1100/1/012014",
+    ],
     image:
       "https://github.com/Cyril-praveen/Resume/blob/main/public/Cyril/Acheivement/IOP%20science.png?raw=true",
     tags: [
